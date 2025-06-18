@@ -1,0 +1,350 @@
+Traceback (most recent call last):
+  File "/project/sandbox/user-workspace/api_server.py", line 1, in <module>
+    from fastapi import FastAPI, HTTPException
+ModuleNotFoundError: No module named 'fastapi'
+INFO:     Started server process [28162]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:48870 - "GET /ledger HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48876 - "GET /verify HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [28162]
+INFO:     Started server process [28454]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:55578 - "GET /ledger HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55588 - "GET /verify HTTP/1.1" 200 OK
+INFO:     10.42.2.0:0 - "GET /?_t=1750226463675 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /?_t=1750226578434 HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /?_t=1750226579337 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750226611378 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750226611883 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750226636773 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750226637109 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750226644906 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750226645116 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750226663954 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750226664173 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750226673454 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750226673624 HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /?_t=1750226684613 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750226684956 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750226704953 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750226705241 HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /verify HTTP/1.1" 200 OK
+INFO:     10.42.0.0:0 - "GET /ledger HTTP/1.1" 200 OK
+INFO:     10.42.0.0:0 - "GET /?vscodeBrowserReqId=1750226751501 HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /?_t=1750226756766 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750226757040 HTTP/1.1" 404 Not Found
+INFO:     Started server process [1706]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     10.42.2.0:0 - "GET /?_t=1750226810287 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750226810800 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750226829611 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750226829875 HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [28454]
+INFO:     Started server process [1826]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:49704 - "HEAD /ledger HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:49712 - "GET /ledger HTTP/1.1" 200 OK
+INFO:     10.42.2.0:0 - "GET /?_t=1750226873292 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750226873868 HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1826]
+INFO:     Started server process [2119]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     10.42.1.0:0 - "GET / HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750249568549 HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /?_t=1750250820140 HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /?_t=1750250821841 HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /?_t=1750250822636 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750250829716 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750250829897 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750250868218 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750250868471 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750250885074 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750250885376 HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /?_t=1750250930306 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750250930870 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750250939626 HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /?_t=1750250939906 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750251153580 HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /?_t=1750251154268 HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /?_t=1750251173373 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750251173671 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750251204955 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750251205264 HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /?_t=1750251208557 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750251209079 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750251222996 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750251223863 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750251227707 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750251228250 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750251234993 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750251235332 HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /?_t=1750251264409 HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /?_t=1750251264714 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750251275324 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750251275652 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750251367002 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750251367435 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?vscodeBrowserReqId=1750251401412 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /verify HTTP/1.1" 200 OK
+INFO:     10.42.1.0:0 - "GET /ledger HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "/project/sandbox/user-workspace/api_server.py", line 31, in get_ledger
+    return ledger.to_dict()
+  File "/project/sandbox/user-workspace/triangular_ledger/sierpinski_ledger.py", line 326, in to_dict
+    :return: Leaf triangle or None if not found.
+NameError: name 'triangle' is not defined. Did you mean: 'Triangle'?
+INFO:     10.42.2.0:0 - "GET /ledger HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "/project/sandbox/user-workspace/api_server.py", line 31, in get_ledger
+    return ledger.to_dict()
+  File "/project/sandbox/user-workspace/triangular_ledger/sierpinski_ledger.py", line 326, in to_dict
+    :return: Leaf triangle or None if not found.
+NameError: name 'triangle' is not defined. Did you mean: 'Triangle'?
+INFO:     10.42.0.0:0 - "GET /verify HTTP/1.1" 200 OK
+INFO:     10.42.2.0:0 - "GET /verify HTTP/1.1" 200 OK
+INFO:     10.42.2.0:0 - "GET /ledger HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "/project/sandbox/user-workspace/api_server.py", line 31, in get_ledger
+    return ledger.to_dict()
+  File "/project/sandbox/user-workspace/triangular_ledger/sierpinski_ledger.py", line 326, in to_dict
+    :return: Leaf triangle or None if not found.
+NameError: name 'triangle' is not defined. Did you mean: 'Triangle'?
+INFO:     10.42.1.0:0 - "GET /ledger HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+  File "/home/codespace/.python/current/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "/project/sandbox/user-workspace/api_server.py", line 31, in get_ledger
+    return ledger.to_dict()
+  File "/project/sandbox/user-workspace/triangular_ledger/sierpinski_ledger.py", line 326, in to_dict
+    :return: Leaf triangle or None if not found.
+NameError: name 'triangle' is not defined. Did you mean: 'Triangle'?
+INFO:     10.42.1.0:0 - "GET /verify HTTP/1.1" 200 OK
+INFO:     10.42.2.0:0 - "GET /?_t=1750251501185 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750251501731 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750251652877 HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /?_t=1750251653277 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750251830003 HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /?_t=1750251831313 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750251924998 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750251925460 HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /?_t=1750252022232 HTTP/1.1" 404 Not Found
+INFO:     10.42.2.0:0 - "GET /?_t=1750252022877 HTTP/1.1" 404 Not Found
+INFO:     10.42.0.0:0 - "GET /?_t=1750253203745 HTTP/1.1" 404 Not Found
+INFO:     10.42.1.0:0 - "GET /?_t=1750253204487 HTTP/1.1" 404 Not Found
