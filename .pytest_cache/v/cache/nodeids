@@ -1,0 +1,9 @@
+[
+  "triangular_ledger/tests/test_consensus.py::TestConsensus::test_consensus_loads_longest_ledger",
+  "triangular_ledger/tests/test_ledger.py::TestCrypto::test_key_generation_and_signing",
+  "triangular_ledger/tests/test_ledger.py::TestSierpinskiLedger::test_add_and_verify_transactions",
+  "triangular_ledger/tests/test_ledger.py::TestSierpinskiLedger::test_get_wallet_balance",
+  "triangular_ledger/tests/test_ledger.py::TestSierpinskiLedger::test_query_transactions_by_wallet",
+  "triangular_ledger/tests/test_ledger.py::TestTriangle::test_add_transactions_to_leaf",
+  "triangular_ledger/tests/test_ledger.py::TestTriangle::test_subdivide_and_hash"
+]
