@@ -1,0 +1,30 @@
+{
+  "level": 0,
+  "index": 0,
+  "transactions": [
+    {
+      "id": "1b34156e-6e79-4831-8f67-4629f80d9565",
+      "timestamp": 1750250595.428302,
+      "sender": "fractal_0_0_abcdef1234",
+      "receiver": "fractal_0_1_abcdef5678",
+      "amount": 10.0,
+      "nonce": 2453,
+      "public_key": null,
+      "signature": "signed(1b34156e-6e79-4831-8f67-4629f80d9565)_with_fractal_0_0_abcdef1234"
+    },
+    {
+      "id": "60e67804-c58d-4849-9d7d-8ae1576631f5",
+      "timestamp": 1750250595.441392,
+      "sender": "Wac\u0142ainium_network_reward",
+      "receiver": "fractal_0_0_abcdef1234",
+      "amount": 1.0,
+      "nonce": 0,
+      "public_key": null,
+      "signature": null,
+      "token_name": "Wac\u0142ainium",
+      "token_symbol": "W\u0141C"
+    }
+  ],
+  "hash": "010431d77d0930fbd8d59417053c51397b21272a4fe3acd65c5dfbb6222242f3",
+  "children": []
+}
