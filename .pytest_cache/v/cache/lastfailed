@@ -1,0 +1,3 @@
+{
+  "triangular_ledger/tests/test_consensus.py::TestConsensus::test_consensus_loads_longest_ledger": true
+}
